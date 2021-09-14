@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./soham.component.css']
 })
 export class SohamComponent implements OnInit {
+  a = 2;
+  b = 3;
+  c= (this.a+this.b);
 
   constructor() { }
 
